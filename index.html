@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tasty TV</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="wrapper-section">
+      <nav>
+        <div class="nav-links">
+          <ul>
+            <li><a href="#wrapper-sections">Home</a></li>
+            <li><a href="#latest-news-section">Latest News</a></li>
+            <li><a href="#whats-on-section">What's on</a></li>
+            <li><a href="#random-movie-section">Random Movie</a></li>
+            <li><a href="#register-form-section">Register</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="social-media">
+        <a href="https://www.facebook.com/" target="_blank"
+          ><img
+            src="/Images/facebook.png"
+            alt="Facebook logo"
+            width="20"
+            height="20"
+        /></a>
+        <a href="https://twitter.com/" target="_blank"
+          ><img
+            src="/Images/twitter.png"
+            alt="Twitter logo"
+            width="20"
+            height="20"
+        /></a>
+        <a href="https://www.instagram.com/" target="_blank"
+          ><img
+            src="/Images/instagram.png"
+            alt="Instagram logo"
+            width="20"
+            height="20"
+        /></a>
+        <a href="https://www.youtube.com/" target="_blank"
+          ><img
+            src="/Images/youtube.png"
+            alt="YouTube logo"
+            width="20"
+            height="20"
+        /></a>
+        <a href="https://www.linkedin.com/" target="_blank"
+          ><img
+            src="/Images/linkedin.png"
+            alt="LinkedIn logo"
+            width="20"
+            height="20"
+        /></a>
+      </div>
+      <div class="home-text">
+        <h1>TASTY TV</h1>
+        <h2>Coming Soon...</h2>
+        <p>
+          Tasty TV is a brand new movie and tv live-streaming service where you
+          can expect daily 12-hour repeating streams of some of the newest
+          releases around! We can't wait to help you discover amazing movies and
+          tv shows! Click the register button below to register so that you will
+          be the first to know when the service is live.
+        </p>
+
+        <a id="registeration-form-button" href="#register-form-section">
+          Register
+        </a>
+      </div>
+    </div>
+
+    <div id="latest-news-section">
+      <h2>Latest News</h2>
+      <p>
+        Here are some upcoming TV shows and movie releases that we think you
+        will be interested in!
+      </p>
+      <div id="latest-content"></div>
+    </div>
+
+    <div id="whats-on-section">
+      <h2>What's on</h2>
+      <p>
+        Here is what's on this week for you to stream live with your friends and
+        family.
+      </p>
+      <div id="whats-on-container"></div>
+    </div>
+
+    <div id="random-movie-section">
+      <h2>Random Movie Selector</h2>
+      <p>
+        Feeling something TASTY today? Then why not use our random movie
+        generator to help you choose a TASTY film/TV show to watch.<br />
+        All you have to do is push the button below for a random but TASTY
+        surprise!
+      </p>
+      <button id="random-film-button">Random Movie Generator</button>
+      <div id="random-item"></div>
+    </div>
+
+    <div id="register-form-section">
+      <h2>Register</h2>
+      <p>
+        Sign up to become a member of the Tasty TV family. When you register you
+        will get full access <br />to all our streaming services and you will be
+        the first to find about about our latest news and announcements.
+      </p>
+      <form id="registration-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" />
+        <label for="email">Email:</label>
+        <input type="email" id="email" />
+        <label for="password">Create Password:</label>
+        <input type="password" id="password" />
+        <input type="submit" value="Sign up" id="submit" />
+      </form>
+      <div>
+        <p id="submit-confirmation"></p>
+      </div>
+      <div id="back-to-top">
+        <a href="#wrapper-section">Back to top</a>
+      </div>
+    </div>
+
+    <footer id="footer">
+      <ul>
+        <li>Copyright</li>
+        <li>Privacy policiy</li>
+        <li>Cookies</li>
+      </ul>
+    </footer>
+    <script src="myscript.js"></script>
+  </body>
+</html>
